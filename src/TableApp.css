@@ -1,0 +1,210 @@
+/* Glavni container */
+.container {
+  display: flex;
+}
+
+/* _____________TABELA_______________________________ */
+
+/* Pozicioniranje tabele na lijevu stranu i podešavanje širine preko klase */
+.table {
+  flex: 3;
+  margin: 50px 0 0 50px;
+  width: 90%;
+}
+
+/* Podešavanje cell-a unutar tabele */
+.columns {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  width: 15%;
+  height: 100vh;
+}
+
+table {
+  border: 2px solid #ddd;
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  overflow: auto;
+  max-width: 80%
+}
+
+/* zajednički dizajn imena kolona i redova u tabeli */
+th,
+td {
+  padding: 3px;
+  border: 1px solid #ddd;
+  max-width: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ime kolone u tabeli */
+th {
+  font-weight: bold;
+  text-align: left;
+  background-color: #f8f9fa;
+}
+
+/* siva boja na svaki parni red u tabeli  */
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+/* ____________________________________________________ */
+/* _________________KOLONE NA DESNOJ STRANI____________ */
+/* zajednički dizajn crvenih i zelenih kolona */
+.available-columns,
+.selected-columns {
+  margin-right: 35px;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 2px 35px 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* div koji obuhvata sve zelene kolone */
+.green-div {
+  padding-top: 20px;
+}
+
+/* div koji obuhvata sve crvene kolone */
+.red-div {
+  padding-top: 40px;
+}
+
+/* crvene kolone */
+.available-columns {
+  border-color: red;
+}
+
+/* zelene kolone */
+.selected-columns {
+  border-color: green;
+}
+
+.column-box {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+/* Linija između crvenih i zelenih kolona */
+.separator {
+  border: 2px solid #ddd;
+  margin-top: 360px;
+}
+
+/* Uklanjanje bulletpoints sa kolona */
+ul {
+  list-style-type: none;
+}
+
+/* ____________________________________________________ */
+/* ________________SEARCH BAR__________________________ */
+
+.search {
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  top: 4%;
+  right: 15%;
+  border: #ddd;
+}
+
+/* dizajn search inputa */
+.search input {
+  padding-left: 20px;
+  height: 28px;
+}
+
+/* ikonica u search baru */
+.search-icon {
+  background-image: url("./search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  top: 23%;
+  right: 95%;
+}
+
+/* ____________________________________________________ */
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-wrapper {
+    display: flex; 
+    flex-direction: column; 
+  }
+
+  .table {
+    position: absolute;
+    margin-top: 300px;
+    max-width: 100%;
+  }
+
+  .columns-container {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .columns {
+    flex: 1;
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+  }
+
+    /* div koji obuhvata sve zelene kolone */
+  .green-div {
+    padding-top: 20px;
+  }
+
+  /* div koji obuhvata sve crvene kolone */
+  .red-div {
+    padding-top: 40px;
+  }
+
+  /* crvene kolone */
+  .available-columns {
+    border-color: red;
+  }
+
+  /* zelene kolone */
+  .selected-columns {
+    border-color: green;
+  }
+
+  .column-box {
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  /* Linija između crvenih i zelenih kolona */
+  .separator {
+    border: 2px solid #ddd;
+    margin-top: 20px;
+  }
+
+  .search {
+    position: static;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    text-align: right;
+  }
+
+  .search-icon {
+    display: none;
+  }
+}

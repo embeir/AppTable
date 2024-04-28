@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 1",
+      "Karakteristika_a": 102,
+      "Karakteristika_b": 24,
+      "Karakteristika_c": 372,
+      "Karakteristika_d": 79,
+      "Karakteristika_e": "tekst"
+    },
+    {
+      "id": 2,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 2",
+      "Karakteristika_a": 426,
+      "Karakteristika_b": 278,
+      "Karakteristika_c": 14,
+      "Karakteristika_d": 389,
+      "Karakteristika_e": "tekst tekst"
+    },
+    {
+      "id": 3,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 3",
+      "Karakteristika_a": 50,
+      "Karakteristika_b": 447,
+      "Karakteristika_c": 201,
+      "Karakteristika_d": 3,
+      "Karakteristika_e": "tabela"
+    },
+    {
+      "id": 4,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 4",
+      "Karakteristika_a": 499,
+      "Karakteristika_b": 222,
+      "Karakteristika_c": 431,
+      "Karakteristika_d": 60,
+      "Karakteristika_e": "tabela prikaz"
+    },
+    {
+      "id": 5,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 5",
+      "Karakteristika_a": 17,
+      "Karakteristika_b": 390,
+      "Karakteristika_c": 47,
+      "Karakteristika_d": 8,
+      "Karakteristika_e": "search"
+    },
+    {
+      "id": 6,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 6",
+      "Karakteristika_a": 497,
+      "Karakteristika_b": 212,
+      "Karakteristika_c": 489,
+      "Karakteristika_d": 54,
+      "Karakteristika_e": "search test search"
+    },
+    {
+      "id": 7,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 7",
+      "Karakteristika_a": 23,
+      "Karakteristika_b": 499,
+      "Karakteristika_c": 26,
+      "Karakteristika_d": 37,
+      "Karakteristika_e": " "
+    },
+    {
+      "id": 8,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 8",
+      "Karakteristika_a": 33,
+      "Karakteristika_b": 4,
+      "Karakteristika_c": 50,
+      "Karakteristika_d": 15,
+      "Karakteristika_e": "sear123searc"
+    },
+    {
+      "id": 9,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 9",
+      "Karakteristika_a": 47,
+      "Karakteristika_b": 11,
+      "Karakteristika_c": 29,
+      "Karakteristika_d": 5,
+      "Karakteristika_e": "389"
+    },
+    {
+      "id": 10,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 10",
+      "Karakteristika_a": 491,
+      "Karakteristika_b": 293,
+      "Karakteristika_c": 490,
+      "Karakteristika_d": 38,
+      "Karakteristika_e": "1234 btrrn"
+    },
+    {
+      "id": 11,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 11",
+      "Karakteristika_a": 468,
+      "Karakteristika_b": 3,
+      "Karakteristika_c": 4,
+      "Karakteristika_d": 20,
+      "Karakteristika_e": "brojevi 1234"
+    },
+    {
+      "id": 12,
+      "Klasifikacija": "M/S",
+      "Naziv": "Naziv 12",
+      "Karakteristika_a": 29,
+      "Karakteristika_b": 49,
+      "Karakteristika_c": 25,
+      "Karakteristika_d": 102,
+      "Karakteristika_e": "brojesvi 567 brojevi"
+    }
+  ]
+  
